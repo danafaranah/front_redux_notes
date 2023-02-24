@@ -5,7 +5,7 @@ const store = configureStore({
     reducer: {
         noteStore: noteReducer,
     },
-    devTools: processs.env.NODE_ENV !== "production",
+    devTools: process.env.NODE_ENV !== "production",
 });
 
 export default store;
