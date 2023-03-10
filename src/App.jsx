@@ -78,7 +78,7 @@ function App() {
   };
 
   return (
-    <div className="container">
+    <div className="container mb-5">
       <div>
         <ul className="nav nav-pills p-3  mb-3 rounded-pill align-items-center">
           {categories.map((category, i) => (
